@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noria Café – Café de especialidad tostado en Córdoba</title>
+  <meta name="description" content="Tostadero de café de especialidad en Córdoba. Suscripciones, catas y café recién tostado.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- 1. CABECERA DE NAVEGACIÓN -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#inicio">
+        <img src="img/logo.svg" alt="Logotipo de Noria Café" width="32" height="32" class="me-2">Noria Café
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar u ocultar el menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#caracteristicas" role="button" data-bs-toggle="dropdown" aria-expanded="false">Qué hacemos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#caracteristicas">Servicios</a></li>
+              <li><a class="dropdown-item" href="#galeria">Nuestros cafés</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#planes">Suscripciones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#opiniones">Opiniones</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-warning btn-sm" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- 2. PORTADA (HERO) -->
+<section id="inicio" class="hero text-white py-5 position-relative">
+  <div class="container-fluid px-md-5">
+    <div class="row g-4 align-items-center py-lg-4">
+      <div class="col-12 col-lg-6">
+        <h1 class="display-4 fw-bold">Café tostado esta semana, en tu taza mañana</h1>
+        <p class="lead my-4">Tostamos en pequeños lotes en Córdoba cafés de especialidad de fincas que conocemos por su nombre. Sin prisas y sin mezclas anónimas.</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="#planes" class="btn btn-warning btn-lg">Ver suscripciones</a>
+          <a href="#galeria" class="btn btn-outline-light btn-lg">Conocer los cafés</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img src="img/hero.svg" class="img-fluid rounded-4 shadow-lg border border-3 border-warning" alt="Ilustración de una taza de café humeante rodeada de granos tostados" width="800" height="600">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. CARACTERÍSTICAS / SERVICIOS -->
+<section id="caracteristicas" class="py-5 bg-body-tertiary">
+  <div class="container">
+    <h2 class="text-center text-primary mb-2">Lo que hacemos en Noria</h2>
+    <p class="text-center text-secondary mb-5">Del grano verde a tu cocina, en tres pasos que cuidamos a mano.</p>
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+        <article class="card h-100 border-0 shadow rounded-4">
+          <img src="img/origen.svg" class="card-img-top rounded-top-4" alt="Ladera verde con cafetos al atardecer" width="800" height="600">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Origen trazable</h3>
+            <p class="card-text">Compramos directamente a cooperativas de Colombia, Etiopía y Guatemala. Sabes quién cultivó cada lote.</p>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+        <article class="card h-100 border-0 shadow rounded-4">
+          <img src="img/tueste.svg" class="card-img-top rounded-top-4" alt="Tambor de tostar con granos dorándose" width="800" height="600">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Tueste en pequeños lotes</h3>
+            <p class="card-text">Tostamos cada semana, nunca más de 12 kg a la vez, para que el café llegue fresco y con todo su aroma.</p>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <article class="card h-100 border-0 shadow rounded-4">
+          <img src="img/cata.svg" class="card-img-top rounded-top-4" alt="Mesa de cata con una taza y notas de sabor" width="800" height="600">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Catas y formación</h3>
+            <p class="card-text">Cada sábado organizamos catas guiadas y talleres de preparación en la tienda, para todos los niveles.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. GALERÍA / PRESENTACIÓN DEL PRODUCTO -->
+<section id="galeria" class="py-5 bg-white">
+  <div class="container">
+    <nav aria-label="Ruta de navegación">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#inicio">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="#caracteristicas">Qué hacemos</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Nuestros cafés</li>
+      </ol>
+    </nav>
+    <h2 class="text-primary mb-4">Nuestros cafés y nuestra tienda</h2>
+    <div class="row g-4">
+      <div class="col-12 col-lg-7">
+        <div id="carruselCafes" class="carousel slide shadow rounded-4 overflow-hidden" data-bs-ride="carousel" role="region" aria-label="Galería de imágenes">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselCafes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+            <button type="button" data-bs-target="#carruselCafes" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+            <button type="button" data-bs-target="#carruselCafes" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/molinillo.svg" class="d-block w-100" alt="Molinillo de café sobre la barra" width="800" height="600">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-3">
+                <h3 class="h5">Molienda a tu gusto</h3><p class="mb-0">Moltura fina, media o gruesa en el momento.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/tueste.svg" class="d-block w-100" alt="Tambor de tueste en funcionamiento" width="800" height="600">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-3">
+                <h3 class="h5">Tostadero a la vista</h3><p class="mb-0">Puedes ver el tueste desde la tienda.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/tienda.svg" class="d-block w-100" alt="Fachada de la tienda de Noria Café" width="800" height="600">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-3">
+                <h3 class="h5">Pásate por la tienda</h3><p class="mb-0">Abrimos de martes a sábado.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselCafes" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselCafes" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        <nav aria-label="Paginación de la galería" class="mt-4">
+          <ul class="pagination justify-content-center mb-0">
+            <li class="page-item disabled"><span class="page-link">Anterior</span></li>
+            <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+            <li class="page-item"><a class="page-link" href="#galeria">2</a></li>
+            <li class="page-item"><a class="page-link" href="#galeria">3</a></li>
+            <li class="page-item"><a class="page-link" href="#galeria">Siguiente</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-12 col-lg-5">
+        <h3 class="h5">Ficha del café de temporada</h3>
+        <ul class="nav nav-tabs" id="fichaCafe" role="tablist">
+          <li class="nav-item" role="presentation"><button class="nav-link active" id="tab-origen" data-bs-toggle="tab" data-bs-target="#panel-origen" type="button" role="tab" aria-controls="panel-origen" aria-selected="true">Origen</button></li>
+          <li class="nav-item" role="presentation"><button class="nav-link" id="tab-tueste" data-bs-toggle="tab" data-bs-target="#panel-tueste" type="button" role="tab" aria-controls="panel-tueste" aria-selected="false">Tueste</button></li>
+          <li class="nav-item" role="presentation"><button class="nav-link" id="tab-prep" data-bs-toggle="tab" data-bs-target="#panel-prep" type="button" role="tab" aria-controls="panel-prep" aria-selected="false">Preparación</button></li>
+        </ul>
+        <div class="tab-content border border-top-0 rounded-bottom p-3" id="fichaContenido">
+          <div class="tab-pane fade show active" id="panel-origen" role="tabpanel" aria-labelledby="tab-origen" tabindex="0">
+            <figure class="figure">
+              <img src="img/origen.svg" class="figure-img img-thumbnail rounded" alt="Finca de café de Huila, en Colombia" width="800" height="600">
+              <figcaption class="figure-caption">Finca La Esperanza, Huila (Colombia), a 1.750 m.</figcaption>
+            </figure>
+            <p class="mb-0">Variedad caturra, lavado, cosecha 2026. Notas a panela, cacao y naranja.</p>
+          </div>
+          <div class="tab-pane fade" id="panel-tueste" role="tabpanel" aria-labelledby="tab-tueste" tabindex="0">
+            <p>Tueste medio de 11 minutos, pensado para filtro y espresso.</p>
+            <p class="mb-0"><span class="badge text-bg-warning">Tostado cada martes</span></p>
+          </div>
+          <div class="tab-pane fade" id="panel-prep" role="tabpanel" aria-labelledby="tab-prep" tabindex="0">
+            <p class="mb-2">Receta recomendada para V60:</p>
+            <ul class="nav nav-pills flex-column flex-sm-row gap-1" aria-label="Datos de la receta">
+              <li class="nav-item"><span class="nav-link active">15 g de café</span></li>
+              <li class="nav-item"><span class="nav-link active">250 ml de agua</span></li>
+              <li class="nav-item"><span class="nav-link active">93 °C</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. PLANES Y PRECIOS -->
+<section id="planes" class="py-5 bg-body-tertiary">
+  <div class="container">
+    <h2 class="text-center text-primary mb-2">Suscripciones de café</h2>
+    <p class="text-center text-secondary mb-4">Elige cuánto café quieres recibir. Puedes pausar o cancelar cuando quieras.</p>
+    <div class="table-responsive rounded-4 shadow">
+      <table class="table table-bordered align-middle text-center mb-0 bg-white">
+        <caption class="visually-hidden">Comparativa de las tres suscripciones mensuales</caption>
+        <thead>
+          <tr>
+            <th scope="col" class="text-start">Incluye</th>
+            <th scope="col" class="text-bg-primary">Curioso<br><span class="fw-normal">12 €/mes</span></th>
+            <th scope="col" class="text-bg-warning">Habitual<br><span class="fw-normal">24 €/mes</span></th>
+            <th scope="col" class="text-bg-dark">Aficionado<br><span class="fw-normal">42 €/mes</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row" class="text-start">Café al mes</th><td>250 g</td><td class="plan-destacado">500 g</td><td>1 kg</td></tr>
+          <tr><th scope="row" class="text-start">Envío</th><td>3,90 €</td><td class="plan-destacado">Gratis</td><td>Gratis</td></tr>
+          <tr><th scope="row" class="text-start">Molienda a medida</th><td>Incluido</td><td class="plan-destacado">Incluido</td><td>Incluido</td></tr>
+          <tr><th scope="row" class="text-start">Cata mensual en tienda</th><td>No</td><td class="plan-destacado">1 plaza</td><td>2 plazas</td></tr>
+          <tr><th scope="row" class="text-start">Lotes de edición limitada</th><td>No</td><td class="plan-destacado">No</td><td>Incluido</td></tr>
+          <tr>
+            <td></td>
+            <td><a href="#contacto" class="btn btn-outline-primary">Elegir</a></td>
+            <td class="plan-destacado"><a href="#contacto" class="btn btn-warning">Elegir</a></td>
+            <td><a href="#contacto" class="btn btn-outline-dark">Elegir</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-center mt-3 mb-0"><span class="badge text-bg-success">Más elegido: Habitual</span></p>
+  </div>
+</section>
+
+<!-- 6. PREGUNTAS FRECUENTES -->
+<section id="faq" class="py-5 bg-white">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <h2 class="text-primary mb-4">Preguntas frecuentes</h2>
+        <div class="accordion shadow-sm" id="acordeonFaq">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">¿Cuánto tarda en llegar el pedido?</button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#acordeonFaq">
+              <div class="accordion-body">Tostamos los martes y enviamos el miércoles. En la Península llega en 24-48 horas.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">¿Puedo cambiar de café entre envíos?</button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq">
+              <div class="accordion-body">Sí. Hasta cinco días antes del envío puedes elegir otro café o cambiar la molienda desde tu cuenta.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">¿Cómo cancelo o pauso la suscripción?</button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq">
+              <div class="accordion-body">Desde tu cuenta, en un clic y sin permanencia. Si lo prefieres, escríbenos con el formulario de contacto.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">¿Tenéis café descafeinado?</button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq">
+              <div class="accordion-body">Sí, un descafeinado natural por proceso de agua, disponible en los tres planes.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. OPINIONES DE CLIENTES -->
+<section id="opiniones" class="py-5 bg-dark text-white">
+  <div class="container">
+    <h2 class="text-warning mb-2">Lo que dicen nuestros clientes</h2>
+    <div class="alert alert-success d-flex align-items-center mt-3 mb-4" role="status">
+      <i class="bi bi-patch-check-fill me-2" aria-hidden="true"></i>
+      <div>Todas las opiniones proceden de clientes con compra verificada.</div>
+    </div>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-xl-4">
+        <figure class="card h-100 text-dark p-4 rounded-4 shadow m-0">
+          <blockquote class="blockquote fs-6">«Llevo un año suscrita y el café siempre llega con aroma de recién tostado. El de Etiopía es mi favorito.»</blockquote>
+          <figcaption class="blockquote-footer mt-auto mb-2">Lucía M., Córdoba</figcaption>
+          <div><span class="badge text-bg-success">Compra verificada</span> <span class="badge text-bg-primary">Plan Habitual</span></div>
+        </figure>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4">
+        <figure class="card h-100 text-dark p-4 rounded-4 shadow m-0">
+          <blockquote class="blockquote fs-6">«Fui a una cata por curiosidad y salí sabiendo preparar un buen filtro en casa. Muy recomendable.»</blockquote>
+          <figcaption class="blockquote-footer mt-auto mb-2">Andrés R., Sevilla</figcaption>
+          <div><span class="badge text-bg-success">Compra verificada</span> <span class="badge text-bg-info">Asistió a una cata</span></div>
+        </figure>
+      </div>
+      <div class="col-12 col-md-12 col-xl-4">
+        <figure class="card h-100 text-dark p-4 rounded-4 shadow m-0">
+          <blockquote class="blockquote fs-6">«Pedí por error una molienda gruesa y me lo cambiaron sin ponerme ninguna pega. Trato excelente.»</blockquote>
+          <figcaption class="blockquote-footer mt-auto mb-2">Marta G., Málaga</figcaption>
+          <div><span class="badge text-bg-success">Compra verificada</span> <span class="badge text-bg-warning">Cliente nuevo</span></div>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. CONTACTO -->
+<section id="contacto" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-primary mb-4">Escríbenos</h2>
+    <div class="row g-4">
+      <div class="col-12 col-lg-8">
+        <form action="#" method="post" class="border rounded-4 p-4 shadow-sm">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="nombre" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" autocomplete="name" required>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="telefono" class="form-label">Teléfono (opcional)</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" autocomplete="tel">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="asunto" class="form-label">Motivo de la consulta</label>
+              <select class="form-select" id="asunto" name="asunto" required>
+                <option value="" selected disabled>Elige una opción</option>
+                <option>Suscripción</option>
+                <option>Reservar una cata</option>
+                <option>Pedido existente</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <fieldset>
+                <legend class="form-label fs-6">Plan que te interesa</legend>
+                <div class="btn-group" role="group" aria-label="Plan que te interesa">
+                  <input type="radio" class="btn-check" name="plan" id="plan1" value="curioso" autocomplete="off">
+                  <label class="btn btn-outline-primary" for="plan1">Curioso</label>
+                  <input type="radio" class="btn-check" name="plan" id="plan2" value="habitual" autocomplete="off" checked>
+                  <label class="btn btn-outline-primary" for="plan2">Habitual</label>
+                  <input type="radio" class="btn-check" name="plan" id="plan3" value="aficionado" autocomplete="off">
+                  <label class="btn btn-outline-primary" for="plan3">Aficionado</label>
+                </div>
+              </fieldset>
+            </div>
+            <div class="col-12">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="privacidad" name="privacidad" required>
+                <label class="form-check-label" for="privacidad">He leído y acepto el <a href="#aviso-legal">aviso legal</a>.</label>
+              </div>
+            </div>
+            <div class="col-12 d-flex flex-wrap gap-2">
+              <button type="submit" class="btn btn-primary btn-lg">Enviar mensaje</button>
+              <button type="reset" class="btn btn-outline-secondary btn-lg">Borrar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <aside class="col-12 col-lg-4">
+        <div class="card sticky-top aside-sticky border-0 text-bg-light rounded-4 shadow-sm">
+          <div class="card-body p-4">
+            <h3 class="h5">Visítanos</h3>
+            <address class="mb-0">
+              Calle de la Noria, 12<br>14003 Córdoba<br>
+              <a href="tel:+34957000000">957 00 00 00</a><br>
+              <a href="mailto:hola@noriacafe.example">hola@noriacafe.example</a>
+            </address>
+            <p class="mt-3 mb-0 text-secondary">Martes a sábado, de 9:00 a 20:00.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- 9. PIE DE PÁGINA -->
+<footer class="bg-dark text-white-50 pt-5 pb-4">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center gap-3 mb-4">
+      <a class="d-flex align-items-center text-white text-decoration-none fs-5 fw-bold" href="#inicio">
+        <img src="img/logo.svg" alt="" width="32" height="32" class="me-2">Noria Café
+      </a>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link text-white" href="#caracteristicas">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#planes">Suscripciones</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#faq">Preguntas</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="d-flex gap-3 fs-4">
+        <a class="text-white" href="https://www.instagram.com/" aria-label="Instagram de Noria Café"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+        <a class="text-white" href="https://www.facebook.com/" aria-label="Facebook de Noria Café"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+        <a class="text-white" href="https://www.youtube.com/" aria-label="YouTube de Noria Café"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <div id="aviso-legal" class="small">
+      <p><strong class="text-white">Aviso legal.</strong> Noria Café es un proyecto ficticio creado con fines educativos para la asignatura Diseño de Interfaces Web. Los datos, precios y opiniones son inventados. No se realiza ninguna venta ni se recogen datos personales.</p>
+      <p class="mb-2"><strong class="text-white">Procedencia de las imágenes.</strong> Todas las ilustraciones (carpeta <code>img/</code>) son propias, dibujadas en SVG para este proyecto. Los iconos pertenecen a <a class="text-white" href="https://icons.getbootstrap.com/">Bootstrap Icons</a> (licencia MIT).</p>
+      <p class="mb-0">&copy; 2026 Noria Café. Hecho con <a class="text-white" href="https://getbootstrap.com/">Bootstrap 5.3</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

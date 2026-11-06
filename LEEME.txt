@@ -1,0 +1,3 @@
+Noria Café - Actividad 1: Landing page con Bootstrap 5.3
+Repositorio GitHub: (pega aquí la URL de tu repositorio público)
+GitHub Pages (opcional): (pega aquí la URL si la publicas)

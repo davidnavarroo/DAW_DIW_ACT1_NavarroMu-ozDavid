@@ -1,0 +1,12 @@
+/* Ajustes mínimos propios sobre Bootstrap 5.3 */
+:root{--bs-primary:#0f5c63;--bs-primary-rgb:15,92,99}
+html{scroll-behavior:smooth}
+body{padding-top:4.5rem}                     
+section[id]{scroll-margin-top:4.5rem}          
+h1,h2,h3,.navbar-brand{font-family:Georgia,"Times New Roman",serif}
+.btn-primary{--bs-btn-bg:#0f5c63;--bs-btn-border-color:#0f5c63;--bs-btn-hover-bg:#0b4349;--bs-btn-hover-border-color:#0b4349;--bs-btn-active-bg:#0b4349}
+.hero{background:linear-gradient(135deg,#14213d 0%,#0f5c63 100%)}
+.card-img-top{aspect-ratio:4/3;object-fit:cover}
+.carousel-item img{aspect-ratio:16/9;object-fit:cover}
+.plan-destacado{background-color:#fff6dc!important}
+.aside-sticky{top:5.5rem}
